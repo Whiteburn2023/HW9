@@ -13,11 +13,7 @@ public class Main {
     }
 
     private static void even() {
-        if (a % 2 == 0) {
-            System.out.println("true");
-        } else {
-            System.out.println("false");
-        }
+        System.out.println(a % 2 == 0);
     }
 
     private static int inputInteger() {
